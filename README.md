@@ -37,7 +37,7 @@ $ docker run -it ns3-focal "./waf --run=hello-simulator --command-template=\"gdb
 
 Pode-se disponibilizar o seu próprio código fonte (ex: my_source_code.cc) das simulações através de um volume local com `-v`:
 ```
-$ docker run --rm -v /home/user/project/mycode/:/ns3/ns-allinone-3.31/ns-3.31/scratch ns3-focal "./waf --run scratch/my_source_code"
+$ docker run --rm -v /home/user/project/mycode/:/ns3/ns-allinone-3.32/ns-3.32/scratch ns3-focal "./waf --run scratch/my_source_code"
 ```
 
 ## Dicas
