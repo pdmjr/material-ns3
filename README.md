@@ -4,6 +4,19 @@ Este contêiner implanta o ambiente de desenvolvimento do NS-3 versão 3.32 sobr
 
 O projeto original foi retirado do repositório [ns3-focal](https://github.com/Luxxii/ns3-focal).
 
+## Instalação
+
+Assumindo que o ambiente Docker e o Git estão instalados, utilizar os seguintes comandos para configuração (atenção, esse procedimento pode levar um tempo considerável para finaliar):
+> `git clone https://github.com/pdmjr/material-ns3.git`
+> `cd material-ns3; chmod +x install-ns3-focal.sh`
+> `docker build .`
+
+Após instalação, verificar o ID da imagem criada a partir do comando:
+> `docker image ls`
+
+Para "taguear" a imagem com um nome mais representativo (ex: ns3-focal):
+> `docker image tag "IMAGE_ID" ns3-focal`
+
 ## Uso
 
 Pode ser utilizado da seguinte maneira:
