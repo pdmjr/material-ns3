@@ -1,0 +1,7 @@
+configs:
+        - name: "terceiro"
+          nCsma: 5
+          verbose: "True"
+          nWifi: 5
+          tracing: "True"
+          time: 15.0
