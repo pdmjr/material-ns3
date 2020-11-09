@@ -1,6 +1,6 @@
 # Exemplos
 
-Alguns exemplos de códigos fontes abordados em aula.
+Alguns exemplos de códigos-fonte abordados em aula.
 
 ## Instrução
 
