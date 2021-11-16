@@ -21,7 +21,7 @@ python3 -m pip install nympy > numpy.log 2>&1
 python3 -m pip install matplotlib > matplotlib.log 2>&1
 
 # Ns3 Folder
-URLfile="https://www.nsnam.org/releases/ns-allinone-3.32.tar.bz2"
+URLfile="https://www.nsnam.org/releases/ns-allinone-3.35.tar.bz2"
 file=$(echo "${URLfile##*/}")
 NSallinonedir=$(echo "${file%.*.*}");
 NSversion=$(echo "${NSallinonedir##*-}"); 
