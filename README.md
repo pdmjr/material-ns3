@@ -1,6 +1,6 @@
 # NS-3 sobre o Ubuntu Focal
 
-Este contêiner implanta o ambiente de desenvolvimento do NS-3 versão 3.32 sobre o Ubuntu 20.04.
+Este contêiner implanta o ambiente de desenvolvimento do NS-3 versão 3.35 sobre o Ubuntu 20.04.
 
 O projeto original foi retirado do repositório [ns3-focal](https://github.com/Luxxii/ns3-focal).
 
