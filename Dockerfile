@@ -8,6 +8,6 @@ RUN apt-get update && \
     ./install-ns3-focal.sh && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR $HOME/ns3/ns-allinone-3.32/ns-3.32
+WORKDIR $HOME/ns3/ns-allinone-3.35/ns-3.35
 
 ENTRYPOINT ["/bin/bash", "-c"]
