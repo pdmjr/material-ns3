@@ -42,7 +42,7 @@ $ docker run -it ns3-focal "./waf --run=hello-simulator --command-template=\"val
 
 Pode-se disponibilizar o seu próprio código fonte (ex: my_source_code.cc) das simulações através de um volume local com `-v`:
 ```
-$ docker run --rm -v /home/user/project/mycode/:/ns3/ns-allinone-3.35/ns-3.35/scratch ns3-focal "./waf --run scratch/my_source_code"
+$ docker run --rm -v /home/user/project/localscratch/:/ns3/ns-allinone-3.35/ns-3.35/scratch ns3-focal "./waf --run scratch/my_source_code"
 ```
 
 ## Dicas
@@ -50,6 +50,11 @@ $ docker run --rm -v /home/user/project/mycode/:/ns3/ns-allinone-3.35/ns-3.35/sc
 Para navegar nos arquivos da imagem:
 ```
 $ docker run -it ns3-focal /bin/bash
+```
+
+Para navegar nos arquivos da imagem, com a montagem de um volume local:
+```
+$ docker run --rm --name ns-3 -v /home/user/project/localcode/:/ns3/ns-allinone-3.35/ns-3.35/volume -it ns3-focal /bin/bash
 ```
 
 Lembre-se que o script que queremos executar deve estar na pasta `scratch`.
